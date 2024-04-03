@@ -1,0 +1,89 @@
+/* CSS untuk gambar */
+.img-fluid.img-thumbnail {
+  border: none; /* Menghapus border */
+  padding: 0; /* Menghapus padding */
+  max-width: 100%; /* Menyesuaikan lebar maksimum dengan frame */
+  height: auto; /* Mengatur tinggi otomatis */
+}
+
+.image-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+.navbar-brand{
+  font-family: "Bricolage Grotesque";
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2em;
+}
+/* desain font slide */
+.carousel-caption h1 {
+  font-family: "Dancing Script"; /* Ganti dengan font yang Anda inginkan */
+  position: relative;
+  font-size: 3.5em; /* Ukuran font */
+  font-weight: bold; /* Ketebalan font */
+  color: #fefefe; /* Warna font */
+  
+}
+
+.carousel-caption p {
+  font-family: "Bricolage Grotesque"; /* Ganti dengan font yang Anda inginkan */
+  font-size: 1.5em; /* Ukuran font */
+  font-weight: normal; /* Ketebalan font */
+  color: #ffffff; /* Warna font */
+  
+}
+
+/* Desain bagian "about" */
+.container h2 {
+  font-family: "Montserrat"; /* Ganti dengan font yang Anda inginkan */
+  font-size: 2em; /* Ukuran font */
+  font-weight: bold; /* Ketebalan font */
+  color: #39A7FF; /* Warna font */
+  
+}
+
+.container p {
+  font-family: Arial, sans-serif; /* Ganti dengan font yang Anda inginkan */
+  font-size: 1.2em; /* Ukuran font */
+  font-weight: normal; /* Ketebalan font */
+  color: #555; /* Warna font */
+  
+}
+/* design fasilitas */
+
+
+
+/* Media query untuk layar kecil */
+@media only screen and (max-width: 767px) {
+  .navbar-nav {
+    text-align: center; /* Pusatkan navbar pada layar kecil */
+  }
+  .carousel-caption {
+    bottom: 125px; /* Atur posisi keterangan carousel pada layar kecil */
+  }
+  .carousel-caption h5 {
+    font-size: 17px; /* Atur ukuran teks keterangan carousel pada layar kecil */
+  }
+}
+
+/* style utk additional service */
+.service {
+  color: #39A7FF;
+}
+/* Custom CSS untuk mengubah ukuran ikon */
+.bx {
+  font-size: 36px; /* Atur ukuran ikon sesuai kebutuhan */
+}
